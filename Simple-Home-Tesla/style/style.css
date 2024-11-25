@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background-image: url(../img/tesla.jpg);
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 6rem;
+}
+.content h2 {
+    text-shadow: -2px 1px 2px rgba(0,0,0,1);
+}
+
+/* background pour mobile taille image(344x844) */
+@media (max-width: 480px) {
+    header img {
+        max-width: 80%;
+    }
+    .content {
+        background: url(../img/tesla-mobile.jpg);
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+

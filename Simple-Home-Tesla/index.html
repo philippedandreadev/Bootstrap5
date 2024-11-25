@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>background full responsive</title>
+        <link rel="stylesheet" href="style/style.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+            <title>Tesla homepage test</title>
+    </head>
+    <body>
+      <div class="container-fluid p-0">
+        <!-- Logo du site -->
+        <header class="bg-light p-2 text-center"><h1><img class="img-responsive" src="img/tesla-logo.png" alt=""></h1></header>
+        <main>
+          <div class="content text-light text-center px-4 px-md-0">
+              <h2 class="h1 description"> Model Y<br>à partir de 249€/mois</h2>
+              <p>Ou 36 990 € avec application du bonus Tesla et du bonus écologique gouvernemental2</p>
+              <span class="badge bg-success">Un conseiller est en ligne</span>
+          </div>
+          <div class="container">
+            <!-- Fil d'ariane -->
+            <nav class="mt-3" aria-label="breadcrumb">
+              <ol class="breadcrumb bg-light p-2">
+                <li class="breadcrumb-item"><a href="# " class="text-dark fw-bold-sm text-decoration-none">Accueil</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Maintenance</li>
+              </ol>
+            </nav><!--Fin fil d'ariane-->
+          <!-- Block maintenance -->
+          <div class="alert alert-light my-2 my-md-3 text-center border " role="alert">
+            <div class="progress"  role="progressbar" aria-label="Warning striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" style="width: 75%"></div>
+            </div>
+            <p class="mt-2 text-start">Bienvenue sur Tesla. Ce site est en maintenance.</p><hr>
+            <div class="btn-group text-center" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-sm btn-dark">Suivre les avancements</button>
+              <button type="button" class="btn btn-sm btn-success">Nous contacter</button>
+            </div>
+          </div><!--Avancement maintenance-->
+
+          <!-- Section infos -->
+          <div class="row">
+            <!-- Info 1-->
+            <div class="col-md-6 mb-5"><div class="card" >
+              <img class="img-responsive" src="img/tesla-logo-deux.jpg"  alt="...">
+              <div class="card-body">
+                <h3 class="card-title h4">Journées des propriétaires Tesla</h3>
+                <p class="card-text">Nous sommes heureux de vous inviter, ainsi que vos proches, à rencontrer votre équipe Tesla locale et d'autres propriétaires à TESLA Annemasse</p>
+                <a href="#" class="btn btn-sm btn-success">Rejoindre</a>
+              </div>
+            </div></div><!-- Fin info 1-->
+            <!--Info 2-->
+            <div class="col-md-6 mb-5"><div class="card">
+              <img src="img/tesla-logo-deux.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title h4">CPO Display Event - Torino</h3>
+                <p class="card-text">
+                  Siamo lieti di invitare te e i tuoi cari a visitarci presso il nostro Tesla Store per il nostro evento dedicato alla presentazione dei nostri veicoli disponibili.</p>
+                <a href="#" class="btn btn-sm btn-success">Rejoindre</a>
+              </div>
+            </div></div><!--Fin info 2-->
+          </div>
+          <!--section contact-->
+          <div class="row border m-1 mb-5">
+            <form class="bg-dark text-light p-4">
+              <p class="h3">Contactez-nous</p>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nom</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
+                <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+                <label class="form-label" for="form6Example7">Informations supplémentaires</label>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+              </div>
+              <button type="submit" class="btn btn-sm btn-success">Envoyer</button>
+            </form>
+          </div>
+        </div><!--Fin container-->
+        </main>
+        <footer class="bg-light pt-2 pb-1 text-center border-top"> 
+          <p>@Tesla</p>
+        </footer>
+      </div><!--Fin container-fluid-->
+    </body>
+</html>
