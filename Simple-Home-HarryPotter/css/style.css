@@ -1,0 +1,21 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.presentation {
+    background: url(../img/fondHarry.png);
+    background-size: cover;
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+header img {
+    max-width: 100%;
+}
+
+.navbar {
+    background-color: #000 !important;
+}
+
+
